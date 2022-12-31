@@ -7,6 +7,12 @@ def heapify(tree,n,i):
     c1=2*i+1
     c2=2*i+2
     max=i
+    '''
+          i
+        /   \
+    2i+1    2i+2
+    必须保证下标i的元素是这三个数中最大的
+    '''
     if c1<n and tree[c1]>tree[max]:
         max=c1
     if c2<n and tree[c2]>tree[max]:

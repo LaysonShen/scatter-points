@@ -20,6 +20,6 @@ def quickSort(a, left, right):
     return a
 
 if __name__=='__main__':
-    a=[3,4,2,7,5,8]
+    a=[3,4,2,7,5,1,8]
     res=quickSort(a,0,len(a)-1)
     print(res)
